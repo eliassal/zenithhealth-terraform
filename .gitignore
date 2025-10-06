@@ -2,3 +2,4 @@
 *.txt
 # Ignore tf executables txt files
 *.exe
+*.hcl

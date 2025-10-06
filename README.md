@@ -3,8 +3,8 @@ Terraform code to create all resources indicated in the series Azure virtual net
 
 Instructions to run the code.
 
-1. If you use a backend to save the terraform state update ==backend.tf== file.
-2. Enter the 4 secrets regarding your subscription in ==providers.tf== , just after features{} as follows inside
+1. If you use a backend to save the terraform state update **backend.tf** file.
+2. Enter the 4 secrets regarding your subscription in **providers.tf** , just after features{} as follows inside
 3. Then run
    - terraform plan -out mainNetworking.tfplan
    - terraform apply mainNetworking.tfplan
